@@ -1,0 +1,98 @@
+/* Navbar Styles */
+.navbar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #2c3e50; /* Dark blue shade */
+ padding: 10px 20px;
+ color: white;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-text {
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+.logout-button {
+ display: flex;
+ align-items: center;
+}
+
+.signout-button {
+ background-color: #e74c3c; /* Red shade */
+ color: white;
+ border: none;
+ padding: 8px 16px;
+ border-radius: 5px;
+ font-size: 1rem;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+
+.signout-button:hover {
+ background-color: #c0392b; /* Darker red shade */
+}
+
+/* User Table Container */
+.user-table-container {
+ margin: 20px auto;
+ padding: 20px;
+ max-width: 900px;
+ background: #f9f9f9;
+ border-radius: 8px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message {
+ margin-bottom: 20px;
+ font-size: 1.2rem;
+ color: #34495e;
+}
+
+.welcome-message span {
+ font-weight: bold;
+ color: #2980b9; /* Light blue for emphasis */
+}
+
+/* Table Styles */
+.user-table {
+ width: 100%;
+ border-collapse: collapse;
+ background-color: white;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ overflow: hidden;
+}
+
+.user-table thead {
+ background-color: #2c3e50; /* Dark blue header */
+ color: white;
+}
+
+.user-table th,
+.user-table td {
+ text-align: left;
+ padding: 12px 20px; /* Adds space between table elements */
+ border-bottom: 1px solid #ddd;
+}
+
+.user-table tbody tr:hover {
+ background-color: #f2f2f2; /* Light gray on hover */
+}
+
+.user-table th {
+ font-size: 1rem;
+ font-weight: bold;
+}
+
+.user-table td {
+ font-size: 0.95rem;
+}
+
+.table-title {
+ font-size: 1.5rem;
+ font-weight: bold;
+ color: #2c3e50;
+ margin-bottom: 10px;
+}

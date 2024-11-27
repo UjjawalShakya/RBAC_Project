@@ -1,3 +1,9 @@
+## Deployed Link 
+  https://rbac-ujjawal7668.netlify.app/
+
+## Default Admin Credentials
+- **ID-** ujjawal7668
+- **Password-** admin123
 # RBAC System
 A Role-Based Access Control (RBAC) System implemented in ReactJS to manage user roles and permissions effectively. This project allows users to sign up, log in, and view their role-based access. Admin users can manage other users by toggling roles or deleting them, while viewers have restricted access.
 

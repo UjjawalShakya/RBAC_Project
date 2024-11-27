@@ -77,8 +77,10 @@ src/
 - Viewers can log in and see a list of all users but cannot modify any data.
 # Screenshots
 ## Admin Dashboard
+![Screenshot 2024-11-27 185555](https://github.com/user-attachments/assets/b3d2124e-7a85-4756-b498-43b1b214a139)
 
 ## Viewer Dashboard
+![Screenshot 2024-11-27 184823](https://github.com/user-attachments/assets/1d6b748c-5851-4cb0-a84f-1c87494539e7)
 
 # Future Enhancements
 - Add server-side integration (e.g., Node.js/Express backend).
